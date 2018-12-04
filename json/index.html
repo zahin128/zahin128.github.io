@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<!-- NOTE: the website in the exercise == http://www.zippopotam.us/ -->
+
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+
+		<div id="result">
+
+		</div>
+
+
+
+
+
+		<script type="text/javascript">
+		var client = new XMLHttpRequest();
+		client.open("GET", "http://api.zippopotam.us/MY/98859	", true);
+		client.onreadystatechange = function() {
+			if(client.readyState == 4) {
+				// alert(client.responseText);
+
+				var response = JSON.parse(client.responseText);
+//cument.getElementById('result').textContent = response['M'][0]['Gombak'];
+
+var myText =  'i live in ' + response['places'][0]['longitude'] + '( lat: ' + response['places'][0]['latitude'] + response['places'][0]['longitude'];
+
+
+
+
+
+myText =  ' i live in this city ' + response['places'][0]['state'] +
+response['country'];
+
+
+document.getElementId('result').textContent = myText;
+
+
+
+
+	//	client.send();
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,46 @@
+
+
+return a nodelist -- use array
+
+<input type = "text" class='c'>
+<input type = "text" class='c'>
+// consider it as array
+
+
+
+javascript objetc
+
+object declaration 
+1) object literals
+	var objectname = {
+
+}
+2) object constructor // initially blank
+
+
+function definition 
+
+function x(a,b) {
+
+}
+
+funtion prototype
+function x(a,b);
+
+
+
+
+
+
+
+create an object named 'course' with teh relevant
+
+use javascript to display message
+'Course[x] has [y] seats left'
+
+
+
+
+
+
+

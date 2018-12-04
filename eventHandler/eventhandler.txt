@@ -1,0 +1,39 @@
+function:
+
+(basic)
+
+- function scope and conflicts= local scope vs global scope
+	sequence is very important 
+- function return value
+- function parameter = 
+
+(javascript)
+- function vs method = function is we(user) define.... method is define inside object 
+- built-in function = 
+- anonymous function = 
+     myButton.onclick = function(){
+      // not callnig the function but the variable
+}
+ 
+ EVENT
+
+handling event 
+- event handler properties = make use of enpnumous properties btn.onclick = function () {
+				
+	
+- inline event handler = accepted but not  teh code is not efficient... 
+
+- event listener = defien it as parameter not properties = btn.addEventListener('click', function() 
+
+
+---------
+exercise 
+---------
+
+
+
+
+
+
+
+

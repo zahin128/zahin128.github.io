@@ -1,0 +1,78 @@
+https://www.apachefriends.org/download.html
+
+
+
+JSON 
+
+common use of ajax:
+
+XMLHttpRequest Methods
+
+
+
+readyState
+0 = uninitialized 3 = interactive (some data has been returned)
+1 = loading (broken in IE 6.0)
+2 = loaded 4 = complete
+• status
+• HTTP Status returned from server: 200-299 = OK
+
+
+
+install the server 
+
+
+xampp Control panel
+
+c://xampp/htdocs/...
+
+
+
+
+
+we can retrieve diff kind of data 
+
+
+
+data structure for json vs declaring an object
+
+
+parse is ..
+
+
+
+
+
+['place'][0]['longitude']
+
+
+response['places'][0]['longitude']
+response['places'][0]['latitude']
+response['places'][0]['state']
+response['country']
+
+
+
+
+
+
+
+
+
+
+JSON Result:
+{
+   "post code": "90210",
+   "country": "United States",
+   "country abbreviation": "US",
+   "places": [
+       {
+           "place name": "Beverly Hills",
+           "longitude": "-118.4065",
+           "state": "California",
+           "state abbreviation": "CA",
+           "latitude": "34.0901"
+       }
+   ]
+}
+			

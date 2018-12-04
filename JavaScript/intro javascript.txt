@@ -1,0 +1,86 @@
+JavaScript is more likek scripting 
+java not same like javascript
+
+
+developer tool > console
+
+>alert('Hello' );
+>prompt('Enter your name');
+
+
+--------------------------------
+script
+
+
+
+
+about
+.
+.
+.
+
+Enter .........button
+
+script
+
+--------------------------------
+
+
+x.y.z
+myvar.value; // propeties
+myvar.mymethod() // method
+
+
+function x(y) {...}
+function x(Hello world)
+
+
+para.textContent = 'Player 1: ' + Ahmad;
+
+https://newsapi.org/pricing
+
+Application Programming Interface
+
+• DOM API
+• Geolocation API
+• Canvas and WebGL API (to create games)
+• Audio and Video API
+
+https://aladhan.com/prayer-times-api
+
+Variable
+
+Rules for naming variables
+how to know reserve word = blue color
+cannot num
+
+v i i
+v i i
+v i v
+v v v
+
+
+
+Number 
+
+String 
+
+var mText = " "
+
+
+Array
+
+var myname = ['sdf','wer','uty'];    // no declare size
+
+Object
+
+var dog = {id: 23, name: 'spot' };
+
+dog.id;
+
+
+
+
+
+
+

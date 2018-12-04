@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div id="result">
+
+    </div>
+
+    <script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+      var client = new XMLHttpRequest();
+
+      client.open("GET", "http://api.zippopotam.us/MY/43200", true);
+
+      client.onreadystatechange = function() {
+
+      	if(client.readyState == 4) {
+      		alert(client.responseText);
+
+
+        var response = JSON.parse(client.responseText);
+        // document.getElementById('result').textContent = response['place'][0]['place name'];
+
+        var myText = 'I live in' + response['place'][0]['state'] + 'lat :' + response['place'][0]['latitude']
+                                 + 'long :' + response['place'][0]['longitude'];
+
+        myText = 'It is a beautiful city in ' + response['country'];
+
+        document.getElementById('result').textContent = myText;
+
+	};
+
+
+};
+
+client.send();
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

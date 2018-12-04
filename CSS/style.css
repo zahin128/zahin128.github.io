@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+  /* background-image: url("https://images3.alphacoders.com/101/101705.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover; */
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+.container {
+  height: 120px;
+  background-color: gray;
+}
+
+.c1 {
+  float:left;
+  width:70%;
+}
+
+.hei {
+  height:100px;
+}
+
+.dvc {
+  padding-top:100px;
+  text-align:center;
+}
+
+.bulat {
+  border-radius: 50%;
+}
+.c2 {
+  padding-left:40%;
+  padding-top:20px;
+}
+
+.t1 {
+  width:200px;
+  border-collapse: collapse;
+}
+
+.trd {
+  border:1px solid black
+}
+
+.pl {
+  padding:3px;
+}
+
+.fl {
+  float:left;
+}
+.ds {
+  box-shadow:1px 1px 1px 1px;
+  padding:20px;
+  background-color: white;
+  width:100px;
+}
+.bdr a{
+  color:blue;
+  border-left:3px solid black;
+}
+
+.bdr:hover {
+  color:purple;
+}

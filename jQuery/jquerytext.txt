@@ -1,0 +1,56 @@
+JQueryUI
+
+website :
+jquery.com
+jqueryui.com
+https://www.awwwards.com/websites/jquery-ui/
+https://developers.google.com/speed/libraries/
+https://jqueryui.com/accordion/
+http://www.javascriptbook.com/code/c07/
+
+
+jQueryui website  -  
+
+download  - jquery
+
+CDN (Content Delivery Network)
+
+
+eihter links or download
+
+bootstrap -
+
+carousel like a slide 
+
+---------------------------
+
+jquery :
+
+$ means jquery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

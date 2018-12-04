@@ -1,0 +1,76 @@
+password
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      table,th,td,tr{
+        border:1px solid red;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+
+      <div class="" style="width:50%; float : left">
+        <label for="name2">Name:</label>
+        <input type="text" name="name2" value=""placeholder="please enter ">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" value="">
+
+      </div>
+
+      <div class="" style="width:50%; float: right">
+
+
+              <label for="radio">Fruit:</label>
+              <input type="radio" name="fruit" value="orange">Orange
+              <input type="radio" name="fruit" value="orange">Apple
+<br>
+              <label for="cars">Cars:</label>
+              <select class="" name="cars">
+                <option value="proton">Proton</option>
+                <option value="produa">Produa</option></b>
+
+              </select>
+<br>
+<div class="" style="background:yellow">
+
+  <label for="checkbox">fruits:</label>
+  <input type="checkbox" name="checkbox" value="orange">orange
+  <input type="checkbox" name="checkbox" value="apple">apple
+
+
+</div>
+
+
+
+
+
+      </div>
+
+      <div class="" style="clear:booth; padding-top:20px">
+
+        <input type="submit" name="submit" value="Submission" style="width:100">
+
+      </div>
+
+
+    </form>
+     <table>
+       <tbody>
+         <tr>
+           <th> Name</th>
+           <td> Zahin </td>
+         </tr>
+       </tbody>
+     </table>
+
+
+
+  </body>
+</html>

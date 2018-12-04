@@ -1,0 +1,46 @@
+
+
+#include <iostream>
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+class Staff {
+	
+	
+	private :
+		string name ;
+		int staffId ;
+		string faculty;
+		int age ;
+		
+	public :
+		Staff(string n, int id,string f, int a )
+		{
+			name = n;
+			staffId =  id;
+			faculty = f;
+			age = a;
+			
+		}
+		
+		void displayStaff()
+		{
+			cout << " Name : " << name << endl;
+			cout << "Staff ID : " << staffId << endl;
+			cout << " Faculty : " << faculty << endl;
+			cout << " Age  : " << age << endl;
+		}
+		
+		
+		
+		
+};
+
+int main()
+{
+	Staff s1 = Staff("Ahmad",1234,"ICT",20);
+	s1.displayStaff();
+	
+	return 0;
+	
+}

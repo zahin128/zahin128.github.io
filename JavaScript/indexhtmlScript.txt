@@ -1,0 +1,23 @@
+indexJavaScript
+
+
+
+<!--index.html-->
+<html>
+
+
+
+<body>
+  
+        <p>Result1:<span id = "one"></p>
+        <p>Result2:<span id = "two"></p>
+        <p>Result3:<span id = "three"></p>
+        <script src="script.js"></script>
+
+</body>
+
+
+
+
+
+</html>

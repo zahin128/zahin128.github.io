@@ -1,0 +1,70 @@
+
+div.left{
+  content: url("http://adisazizan.xyz/img/portfolio-3.jpg");
+  float: left;
+
+  padding-right: 10px;
+
+  width: 50%;
+
+  background-image: linear-gradient();
+
+s
+}
+
+.name{
+  border:none;
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+
+
+}
+
+.email{
+  border:none;
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+
+
+}
+
+.pass{
+  border:none;
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+
+
+}
+
+.rpass{
+  border:none;
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+
+
+
+}
+
+.fin{
+
+  padding-top: 10px;
+
+
+}
+
+
+
+.sub{
+
+  width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+
+
+}

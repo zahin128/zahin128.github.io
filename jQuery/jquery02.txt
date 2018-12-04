@@ -1,0 +1,57 @@
+changing content :
+grab both text and html
+
+
+$(function() {
+$('li:contains("pine")').text('almonds');
+
+
+
+
+.html
+
+<ul>
+
+	<li class = "hot" >  hi   </li>
+	<li class = "hot" > almonds   </li>
+	<li class = "hot" > hi   </li>
+	<li> hi   </li>
+
+<ul>
+
+
+
+Event :
+
+$(function() {
+  var ids = '';
+  var $listItems = $('li');
+
+  $listItems.on('mouseover click', function() { // method keyword followed by anonymous function
+    ids = this.id;
+    $listItems.children('span').remove();
+    $(this).append(' <span class="priority">' + ids + '</span>'); // putting id at the end of the list 
+  });
+
+  $listItems.on('mouseout', function() {
+    $(this).children('span').remove(); // if mouse out 
+  });
+
+});
+
+
+
+JqueryUI is automated and limited
+Jquery is more flexible
+
+
+JQuery for Content Panels
+
+
+
+
+
+
+
+
+
