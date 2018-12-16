@@ -3,8 +3,335 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
+    <style media="screen">
+
+    body{
+      background-color: white ;
+      font-family: arial;
+
+
+    }
+
+    .title{
+      background-color: purple;
+      width: 100%;
+      height: 70px;
+
+
+
+    }
+
+
+
+    .topheader{
+      background-color: #6a9ef2;
+      text-align: center;
+    }
+
+    .container{
+      padding-top: 20px;
+
+    }
+
+    .name{
+      text-transform: uppercase;
+      color: BlackrockDigital;
+
+      font-family:cursive;
+
+
+    }
+
+    #titlename{
+      font-size: 20px;
+      float: left;
+      padding: 5px;
+      text-align: center;
+      color: white;
+      font-family: cursive;
+
+
+
+    }
+
+    #first{
+      height: 300px;
+    }
+
+    .sub{
+      color: black;
+    }
+
+
+
+
+
+      .left{
+        float: left;
+
+        width: 49.8%;
+        border-color: black;
+        border-radius: 10px;
+        border-style: inset;
+
+
+
+      }
+
+      .one{
+        background-color: purple;
+        color: white;
+        background-color:  purple;
+        height: 200px;
+        padding: 10px;
+
+      }
+
+      .right{
+        float: right;
+        width: 49.8%;
+        background-color: purple;
+        border-color: black;
+        border-radius: 10px;
+        border-style: inset;
+
+      }
+
+
+
+
+          /* Make sure that padding behaves as expected */
+          * {box-sizing:border-box}
+
+          /* Container for skill bars */
+          .box {
+            width: 100%; /* Full width */
+            background-color: #ddd; /* Grey background */
+          }
+
+          .skills {
+            text-align: right; /* Right-align text */
+            padding: 10px; /* Add some padding */
+            color: white; /* White text color */
+          }
+
+          .html {width: 90%; background-color: #4CAF50;} /* Green */
+          .java {width: 80%; background-color: #2196F3;} /* Blue */
+          .ccc {width: 65%; background-color: #f44336;} /* Red */
+          .ap {width: 80%; background-color: #808080;}
+          .pp{width: 70%; background-color: yellow;}
+          .phy {width: 50%; background-color: black;} /* Red */
+          .ai {width: 80%; background-color: #808080;}
+          .js{width: 60%; background-color: yellow;}
+
+          .bmW {width: 90%; background-color: #2196F3;} /* Blue */
+          .bmC {width: 95%; background-color: #2196F3;} /* Red */
+          .baW {width: 85%; background-color: #808080;}
+          .baC {width: 80%; background-color: #808080;}
+          .biC {width: 90%; background-color: #4CAF50;} /* Green */
+          .biW {width: 85%; background-color: #4CAF50;} /* Green */
+
+
+          .two{
+            padding : 10px;
+            background-color: #6a9ef2;
+            height: 850px;
+          }
+
+
+
+
+
+
+
+
+
+
+    </style>
   </head>
+
+
+
   <body>
-    this is a test
+
+    <div class="title">
+      <p id="titlename">Student Resume</p>
+
+
+    </div>
+
+    <header class="topheader">
+
+      <div class="container">
+        <img class="picture" src="profile.png" alt="">
+        <h1 class="name">Ahmad Zahin Fikri Bin Rozlee</h1>
+        <hr class="star-light">
+        <h2 class="name font-weight-light mb-0">Kulliyah of Information and Communication Technology</h2>
+        <h3 class="name">1713089</h3>
+      </div>
+    </header>
+
+    <section id="first">
+      <div class="left one">
+        <h1 class="sub">My profile</h1>
+        <p>My name is Ahmad Zahin Fikri Bin Rozlee. I live in Klang, Selangor. I am 20 years old. I am student of computer science in International Islamic University Malaysia located in Gombak.</p>
+
+      </div>
+
+      <div class="right one">
+        <h1 class="sub" >Education</h1>
+
+        <ul>
+          <li>Sijil Pelajaran Malaysia</li>
+          <li>Sijil Tinggi Agama Malaysia</li>
+          <li>Bachelor of Computer Science</li>
+        </ul>
+
+
+
+      </div>
+    </section>
+
+
+    <section id="sec2">
+      <div class="left two">
+        <h1>Skill</h1>
+
+
+
+<p>HTML</p>
+<div class="box">
+  <div class="skills html">90%</div>
+</div>
+
+<p>Java</p>
+<div class="box">
+  <div class="skills java">80%</div>
+</div>
+
+<p>C++</p>
+<div class="box">
+  <div class="skills ccc">65%</div>
+</div>
+
+<p>Adobe Photoshop</p>
+<div class="box">
+  <div class="skills ap">80%</div>
+</div>
+
+<p>Adobe Premier Pro</p>
+<div class="box">
+  <div class="skills pp">70%</div>
+</div>
+<p>Phyton</p>
+<div class="box">
+  <div class="skills phy">50%</div>
+</div>
+<p>Adobe Illustrator</p>
+<div class="box">
+  <div class="skills ai">80%</div>
+</div>
+<p>JavaScript</p>
+<div class="box">
+  <div class="skills js">60%</div>
+</div>
+
+      </div>
+
+
+
+
+
+
+      <div class="right two">
+        <h1>Languages</h1>
+        <h2>Bahasa Malaysia</h2>
+        <h3>Communication</h3>
+        <div class="box">
+
+          <div class="skills bmC">90%</div>
+
+        </div>
+        <h3>Writting</h3>
+        <div class="box">
+          <div class="skills bmW">80%</div>
+        </div>
+
+        <h2>English</h2>
+        <h3>Communication</h3>
+        <div class="box">
+          <div class="skills biC">80%</div>
+
+        </div>
+        <h3>Writting</h3>
+
+        <div class="box">
+            <div class="skills biW">76%</div>
+        </div>
+
+        <h2>Arabic</h2>
+        <h3>Communication</h3>
+        <div class="box">
+          <div class="skills baC">65%</div>
+
+        </div>
+        <h3>Writting</h3>
+
+        <div class="box">
+          <div class="skills baW">75%</div>
+        </div>
+
+      </div>
+    </section>
+
+<section>
+  <div class="">
+    <p>  </p>
+    <p>   </p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script >
+
+
+    var number = 'satu';
+
+    var text = document.getElementById('title');
+
+    text.textContent = number;
+
+    var text1 = document.getElementsByClassName('test');
+
+    text1.innerHTML = "number";
+
+
+
+    </script>
+
+
   </body>
 </html>
